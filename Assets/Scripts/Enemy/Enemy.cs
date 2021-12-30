@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
 
     protected void OnCollisionEnter(Collision other) {
         
-        if(other.gameObject.CompareTag("Projetil")){
+        if(other.gameObject.CompareTag("Projectile")){
             Destroy(gameObject);
         }
 

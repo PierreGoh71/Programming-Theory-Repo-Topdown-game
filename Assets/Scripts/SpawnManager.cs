@@ -24,7 +24,7 @@ public class SpawnManager : MonoBehaviour
         SpawnEnemies();
     }
 
-    // Instantiate Enemy
+    // Instantiate 
     private IEnumerator SpawnEnemies(){
 
         while(true){
